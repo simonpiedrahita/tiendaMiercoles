@@ -12,3 +12,8 @@ etiquetaNavBar.textContent="OnePiece";
 //src me permite cambiar el atributo de la ubicacion del archivo sin odificar directamente en el html 
 let etiquetaImagen =document.getElementById("fotoLogo");
 etiquetaImagen.src="img/WorldMap.jpg";
+
+
+//cambiar el estilo de la etiqueta
+etiquetaTitulo.classList.add("text-center")
+etiquetaTitulo.classList.add("text-danger")
