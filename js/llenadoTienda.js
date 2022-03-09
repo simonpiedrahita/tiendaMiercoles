@@ -147,9 +147,9 @@ productos.forEach(function (producto){
     card.classList.add("h-100")
 
     //img con la clase card-img-top
-    let foto = document.createElement("img")
-    foto.classList.add("card-img-top")
-    foto.src=producto.foto
+    let cardImg = document.createElement("img")
+    cardImg.classList.add("card-img-top")
+    cardImg.src=producto.foto
 
     let cardContent =document.createElement("div")
     cardContent.classList.add("card-body")
@@ -157,14 +157,28 @@ productos.forEach(function (producto){
     //pendiente crear card text y card footer https://getbootstrap.com/docs/5.1/components/card/
 
     
-    let cardTittle=document.createElement("h4")
+    let cardTittle=document.createElement("h5")
     cardTittle.classList.add("card-tittle")
     cardTittle.textContent=producto.nombre
 
+    let cardText=document.createElement("p")
+    cardText.classList.add("card-text")
+    cardText.textContent=producto.descripcion
+
+    //boton de la tarjeta
+    
+    let cardButton=document.createElement("a")
+    cardButton.classList.add("btn")
+    cardButton.classList.add("btn-primary")
+    cardButton.src="#"
+    //cardButton.textContent=producto.descripcion
+
+
 //3. padres e hijos o appenddChild's
+    
+    card.appendChild(cardImg)
     card.appendChild(cardTittle)
-    card.appendChild(foto)
-    card.appendChild(cardContent)
+    card.appendChild(cardText)
     card.appendChild(cardContent)
     columna.appendChild(card)
     fila.appendChild(columna)
