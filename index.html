@@ -22,10 +22,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">mapa del mundo</a>
+                    <a class="nav-link" href="mapaDelMundo.html">mapa del mundo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tienda.html">Tienda</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,7 +46,7 @@
                       <li><a class="dropdown-item" href="#">Franky</a></li>
                       <li><a class="dropdown-item" href="#">Jimbei</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">alidos de la tripulacion</a></li>
+                      <li><a class="dropdown-item" href="#">aliados de la tripulacion</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -56,17 +59,22 @@
                 </form>
               </div>
             </div>
-          </nav>
+         </nav>
          
     </header>
     <main>
         <!-- w-100 y img-fluid are bootstrap adáptative clases -->
-        <img src="img/one-pieceBG.jpg" alt="fotoBanner" class="w-100 img-fluid">
+        <img src="img/one-pieceBG.jpg" alt="fotoBanner" class="w-100 img-fluid" >
         <!--grid creatión-->
         <section>
             <div class="container mt-5 mb-3">
                <div class="row">
+                <section>
+                  <h4 id="titulo" class="claseMapa">El mejor anime de la historia</h4>
+                  <img src="img/One_Piece_Logo.png" alt="foto" id="fotoLogo" class="img-fluid"  style="width: 40%;" >
+              </section>
                     <div class="col-8 align-self-center">
+
                         <h4>One Piece</h4>
                         <p>
                           One Piece es un manga escrito e ilustrado por Eiichirō Oda y actualmente es el manga más comprado en el mundo.  
@@ -87,6 +95,7 @@
     </main>
     <!--offcanvas actions 
       boton que despliega contenido en una barra lateral    -->
+      
     <section>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
@@ -116,10 +125,7 @@
           </div>
     </section>
 
-    <section>
-        <h4 id="titulo" class="claseMapa">El mejor anime de la historia</h4>
-        <img src="img/One_Piece_Logo.png" alt="foto" id="fotoLogo" >
-    </section>
+    
     <!--Grid Section -->>
     <section>
       <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -169,5 +175,6 @@
     <!--Own .Js files-->
     <script src ="js/controladorTienda.js"></script>
     <script src ="js/llenadoTienda.js"></script>
+    
 </body>
 </html>

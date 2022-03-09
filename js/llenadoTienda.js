@@ -5,48 +5,56 @@ let productos =[
         precio:10000,
         descripcion:"cartel de se busca de monkey D luffy con recompenza ",
         cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
         
     },
     {
         nombre:"Afiche de recompenza Zoro",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     },    
     {
         nombre:"Afiche de recompenza Sanji",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     },    
     {
         nombre:"Afiche de recompenza Usopp",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     },    
     {
         nombre:"Afiche de recompenza Chopper",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     },    
     {
         nombre:"Afiche de recompenza Brook",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     }, 
     {
         nombre:"Afiche de recompenza Nami",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     }, {
         nombre:"Afiche de recompenza Robin",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        foto:'img/carteles/cartel_de_Luffy.png'
     }, 
     {
         nombre:"Camiseta de Luffy",
@@ -54,12 +62,14 @@ let productos =[
         descripcion:"cartel de se busca de monkey D luffy con recompenza ",
         cantidad: 50,
         
+        
     },
     {
         nombre:"Camiseta de Zoro",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
-        cantidad: 50
+        cantidad: 50,
+        
     },    
     {
         nombre:"Camiseta de Sanji",
@@ -97,5 +107,4 @@ let productos =[
         cantidad: 50
     } 
 ]
-    //10 productos y 10 imagenes 
 console.log(productos);
