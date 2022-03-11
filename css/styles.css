@@ -1,4 +1,8 @@
 .navDarkColor{
     background-color: black;
 }
-bg-dark
+
+.card-bg{
+    background-image:url('img/background.jpg');
+}
+

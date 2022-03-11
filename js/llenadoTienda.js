@@ -1,71 +1,71 @@
 //creando un arreglo de objetos 
 let productos =[
     {
-        nombre:"Afiche de recompenza Luffy",
+        nombre:"Afiche de recompenza Monkey D luffy",
         precio:10000,
-        descripcion:"cartel de se busca de monkey D luffy con recompenza ",
+        descripcion:"cartel de se busca de Monkey D luffy con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_Luffy.png'
         
     },
     {
-        nombre:"Afiche de recompenza Zoro",
+        nombre:"Afiche de recompenza Roronoa Zoro",
         precio:10000,
         descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_zoro.jpg'
     },    
     {
-        nombre:"Afiche de recompenza Sanji",
+        nombre:"Afiche de recompenza Sanji Vinsmoke ",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Sanji Vinsmoke  con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_sanji.jpg'
     },    
     {
         nombre:"Afiche de recompenza Usopp",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Usopp con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_usopp.jpg'
     },    
     {
-        nombre:"Afiche de recompenza Chopper",
+        nombre:"Afiche de recompenza Tony Tony Chopper",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Tony Tony Chopper con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_chopper.jpg'
     },    
     {
         nombre:"Afiche de recompenza Brook",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Brook con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_brook.jpg'
     }, 
     {
         nombre:"Afiche de recompenza Nami",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Nami con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_nami.jpg'
     }, {
-        nombre:"Afiche de recompenza Robin",
+        nombre:"Afiche de recompenza Nico Robin",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Nico Robin con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_robin.jpg'
     }, 
     {
         nombre:"Afiche de recompenza Franky",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Franky con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_franky.jpg'
     },{
         nombre:"Afiche de recompenza Jimbe",
         precio:10000,
-        descripcion:"cartel de se busca de Roronoa Zoro con recompenza ",
+        descripcion:"cartel de se busca de Jimbe con recompenza ",
         cantidad: 50,
         foto:'img/carteles/cartel_de_jimbe.jpg'
     },  
@@ -145,18 +145,17 @@ productos.forEach(function (producto){
     //agregar clases a las etiquetas
     card.classList.add("card")
     card.classList.add("h-100")
+    //let cardContent =document.createElement("div")
+    
 
     //img con la clase card-img-top
-    let cardImg = document.createElement("img")
+    
+    cardImg = document.createElement("img")
     cardImg.classList.add("card-img-top")
     cardImg.src=producto.foto
 
-    let cardContent =document.createElement("div")
-    cardContent.classList.add("card-body")
     
-    //pendiente crear card text y card footer https://getbootstrap.com/docs/5.1/components/card/
-
-    
+        
     let cardTittle=document.createElement("h5")
     cardTittle.classList.add("card-tittle")
     cardTittle.textContent=producto.nombre
@@ -167,19 +166,21 @@ productos.forEach(function (producto){
 
     //boton de la tarjeta
     
-    let cardButton=document.createElement("a")
+    let cardButton=document.createElement("button")
     cardButton.classList.add("btn")
+    cardButton.style.marginBlock
     cardButton.classList.add("btn-primary")
-    cardButton.src="#"
+    cardButton.textContent="mas"
     //cardButton.textContent=producto.descripcion
 
 
 //3. padres e hijos o appenddChild's
     
+    
     card.appendChild(cardImg)
     card.appendChild(cardTittle)
     card.appendChild(cardText)
-    card.appendChild(cardContent)
+    card.appendChild(cardButton)
     columna.appendChild(card)
     fila.appendChild(columna)
 
