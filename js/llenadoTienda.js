@@ -5,7 +5,7 @@ let productos =[
         precio:10000,
         descripcion:"cartel de se busca de Monkey D luffy con recompenza ",
         cantidad: 50,
-        foto:'/img/carteles/cartel_de_Luffy.png'
+        foto:'.../img/carteles/cartel_de_Luffy.png'
         
     },
     {
