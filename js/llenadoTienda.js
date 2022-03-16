@@ -5,7 +5,7 @@ let productos =[
         precio:10000,
         descripcion:"cartel de se busca de Monkey D luffy con recompenza ",
         cantidad: 50,
-        foto:'img/carteles/cartel_de_Luffy.png'
+        foto:'/img/carteles/cartel_de_Luffy.png'
         
     },
     {
@@ -168,6 +168,7 @@ productos.forEach(function (producto){
     
     let cardButton=document.createElement("button")
     cardButton.classList.add("btn")
+    cardButton.classList.add("btn-pos")
     cardButton.style.marginBlock
     cardButton.classList.add("btn-primary")
     cardButton.textContent="mas"
@@ -186,4 +187,6 @@ productos.forEach(function (producto){
 
 
 });
+
+
 

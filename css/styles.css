@@ -6,3 +6,7 @@
     background-image:url('img/background.jpg');
 }
 
+btn-pos{
+    position: absolute;
+    margin-bottom: 0%;
+}
